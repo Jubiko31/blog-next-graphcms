@@ -2,9 +2,9 @@ import React, { useContext } from 'react'
 import Link from 'next/link'
 
 const categories = [
-    {name: 'Cybersecurity', slug: 'cybersec'},
+    {name: 'Mobile Development', slug: 'cybersec'},
     {name: 'Web Development', slug: 'web-dev'},
-    {name: 'Mobile Development', slug: 'mobile'}
+    {name: 'Cybersecurity', slug: 'cybersec'}
 ]
 
 const Header = () => {
