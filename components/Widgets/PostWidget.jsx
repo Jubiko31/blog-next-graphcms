@@ -9,13 +9,13 @@ const PostWidget = ({ categories, slug }) => {
 
   useEffect(() => {
     if(slug) {
-      getSimilarPosts(category, slug) 
+      getSimilarPosts(categories, slug) 
         .then((result) => setRelatedPosts(result))
     } else {
       getRecentPosts()
         .then((result) => setRelatedPosts(result)) 
     }
-  }, [slug])
+  }, [slug, categories])
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
