@@ -2,6 +2,8 @@
 
 This is my blog website. Here I write interesting topics about Cybersecurity, Web and Mobile Development, solve CTFs, do code reviews, write future project ideas and some tutorials. You can checkout and leave a comment 🚀🔥
 
+https://juba-blog.vercel.app/
+
 P.S. More posts will be added later 👨‍💻
 
 
