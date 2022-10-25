@@ -1,8 +1,14 @@
+import Head from "next/head";
 import { getPosts, getPostDetails } from "../../services"
 import { PostDetail, Categories, PostWidget, Author, CommentsForm, Comment } from '../../components';
 
 const PostDetails = ({ post }) => {
   return (
+    <>
+    <Head>
+        <title>{`${post.title} | Juba's Blog`}</title>
+        <link rel="icon" href="/favicon.ico" />
+    </Head>
     <div className="container mx-auto px-10 mb-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <div className="col-span-1 lg:col-span-8">
@@ -19,6 +25,7 @@ const PostDetails = ({ post }) => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 
